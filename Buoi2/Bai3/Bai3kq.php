@@ -50,6 +50,6 @@
                 <td><input type="number" value="<?php echo "$kq" ?>"></td>
             </tr>
         </table>
-        <a href="./Bai3nhaplieu.php">Quay lại trang trước</a>
+        <a href="Bai3nhaplieu.php">Quay lại trang trước</a>
 </body>
 </html>

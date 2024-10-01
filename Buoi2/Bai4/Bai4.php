@@ -1,21 +1,19 @@
 <?php
-function timGiaTriLonNhat($mang) {
+function GTLN($mang) {
     return max($mang);
 }
 
-function timGiaTriNhoNhat($mang) {
+function GTNN($mang) {
     return min($mang);
 }
 
-function tinhTongMang($mang) {
+function TONG($mang) {
     return array_sum($mang);
 }
-
 function kiemTraPhanTuCoThuocMang($mang, $phantu) {
     return in_array($phantu, $mang);
 }
-
-function sapXepMangTangDan($mang) {
+function sapxepTangDan($mang) {
     sort($mang);
     return $mang;
 }

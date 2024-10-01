@@ -11,7 +11,7 @@
             border-collapse: collapse;
         }
         table, th, td {
-            border: 2px solid black;
+            border: 1px solid black;
         }
         th, td {
             padding: 8px;
@@ -19,7 +19,34 @@
         }
 </style>
 <body>
-<h2>KIỂM TRA SỐ</h2>
+    <h2>PHÉP TÍNH TRÊN HAI SỐ</h2>
+    <form action="Bai3kq.php" method="post">
+        <table>
+            <tr>
+                <td>Chọn phép tính:</td>
+                <td>
+                    <input type="radio" name="operation" value="add" required>Cộng
+                    <input type="radio" name="operation" value="subtract" required>Trừ
+                    <input type="radio" name="operation" value="multiply" required>Nhân
+                    <input type="radio" name="operation" value="divide" required>Chia
+                </td>
+            </tr>
+            <tr>
+                <td>Số thứ nhất:</td>
+                <td><input type="number" name="number1" required></td>
+            </tr>
+            <tr>
+                <td>Số thứ hai (nếu cần):</td>
+                <td><input type="number" name="number2"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" name="calculate" value="Tính">
+            </td>
+            </tr>
+        </table>
+    </form>
+    
+    <h2>KIỂM TRA SỐ</h2>
     <form action="Bai3ktrakq.php" method="post">
         <table>
             <tr>
